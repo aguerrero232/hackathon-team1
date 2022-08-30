@@ -2,5 +2,5 @@
 
 DevOps:
     
-    * CI/CD pipeline through Github, using Cloud Build
-    * Deployment to Cloud Run
+* CI/CD pipeline through Github, using Cloud Build
+* Deployment to Cloud Run
