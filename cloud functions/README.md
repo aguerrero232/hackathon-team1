@@ -32,7 +32,7 @@ ___
 
 * ### ***Read*** team member data
 
-    Endpoint:https://us-central1-dell-hackathon-2022.cloudfunctions.net/read-tm-data
+    Endpoint: https://us-central1-dell-hackathon-2022.cloudfunctions.net/read-tm-data
 
     method: **GET**
 
@@ -41,6 +41,18 @@ ___
         id: string
 
     **example usage:** https://us-central1-dell-hackathon-2022.cloudfunctions.net/read-tm-data?id={team member email}
+
+* ### ***Read*** all team member data for specific supervisor
+
+    Endpoint: https://us-central1-dell-hackathon-2022.cloudfunctions.net/get-all-tm
+
+    method: **GET**
+
+    parameters:
+
+        id: string
+
+    **example usage:** https://us-central1-dell-hackathon-2022.cloudfunctions.net/get-all-tm?id={manager email}
 
 * ### ***Update*** a team member
 
