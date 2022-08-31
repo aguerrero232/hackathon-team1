@@ -15,7 +15,7 @@ This is a learning dashboard for ITDP cohorts and Managers. It is a web applicat
 
 ## Architecture Diagram
 
-![architecture diagram](./resources/architecture-diagram.png)
+![architecture diagram](resources/architecture-diagram.png)
 
 
 
