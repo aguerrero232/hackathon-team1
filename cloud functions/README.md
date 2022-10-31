@@ -12,23 +12,24 @@ ___
 
     **schema**: 
 
-            {
-                "id": string,
-                "activated": bool,
-                "cohort": string,
-                "country": string,
-                "date_joined": string,
-                "date_last_active": string,
-                "l4": string,
-                "l5": string,
-                "name": string,
-                "new_course_enrolled": number,
-                "new_course_started": number,
-                "supervisor_id": string,
-                "video_consumed": number,
-                "work_region": string
-            }
-
+        ```json
+        {
+            "id": string,
+            "activated": bool,
+            "cohort": string,
+            "country": string,
+            "date_joined": string,
+            "date_last_active": string,
+            "l4": string,
+            "l5": string,
+            "name": string,
+            "new_course_enrolled": number,
+            "new_course_started": number,
+            "supervisor_id": string,
+            "video_consumed": number,
+            "work_region": string
+        }
+        ```
 
 * ### ***Read*** team member data
 
@@ -61,24 +62,25 @@ ___
     method: **POST**
 
     **schema**: 
-
-            {
-                "id": string,
-                "activated": bool,
-                "cohort": string,
-                "country": string,
-                "date_joined": string,
-                "date_last_active": string,
-                "l4": string,
-                "l5": string,
-                "name": string,
-                "new_course_enrolled": number,
-                "new_course_started": number,
-                "supervisor_id": string,
-                "video_consumed": number,
-                "work_region": string
-            }
-
+    
+        ```json
+        {
+            "id": string,
+            "activated": bool,
+            "cohort": string,
+            "country": string,
+            "date_joined": string,
+            "date_last_active": string,
+            "l4": string,
+            "l5": string,
+            "name": string,
+            "new_course_enrolled": number,
+            "new_course_started": number,
+            "supervisor_id": string,
+            "video_consumed": number,
+            "work_region": string
+        }
+        ```
 
 ___
 
@@ -91,16 +93,17 @@ ___
     method: **POST**
 
     **schema**: 
-
-            {
-                "id": string,
-                "country": string,
-                "l4": string,
-                "l5": string,
-                "name": string,
-                "work_region": string
-            }
-
+    
+        ```json
+        {
+            "id": string,
+            "country": string,
+            "l4": string,
+            "l5": string,
+            "name": string,
+            "work_region": string
+        }
+        ```
 
 * ### ***Read*** manager data
 
@@ -122,14 +125,16 @@ ___
 
     **schema**: 
 
-            {
-                "id": string,
-                "country": string,
-                "l4": string,
-                "l5": string,
-                "name": string,
-                "work_region": string
-            }
+        ```json
+        {
+            "id": string,
+            "country": string,
+            "l4": string,
+            "l5": string,
+            "name": string,
+            "work_region": string
+        }
+        ```
 
 ___
 
@@ -141,16 +146,18 @@ ___
 
     method: **POST**
 
-    **schema**: 
-
-            {
-                "course_name": string,
-                "course_description": string,
-                "course_author": string,
-                "course_source": string,
-                "total_minutes": number
-            }
-
+    **schema**:
+    
+        ```json
+        {
+            "course_name": string,
+            "course_description": string,
+            "course_author": string,
+            "course_source": string,
+            "total_minutes": number
+        }
+        ```
+        
 * ### ***Read*** course data
 
     Endpoint: https://us-central1-dell-hackathon-2022.cloudfunctions.net/read-courses
@@ -171,11 +178,13 @@ ___
     method: **POST**
 
     **schema**: 
-
-            {
-                "course_name": string,
-                "course_description": string,
-                "course_author": string,
-                "course_source": string,
-                "total_minutes": number
-            }
+        
+        ```json
+        {
+            "course_name": string,
+            "course_description": string,
+            "course_author": string,
+            "course_source": string,
+            "total_minutes": number
+        }
+         ```
