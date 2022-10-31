@@ -12,7 +12,7 @@ ___
 
     **schema**: 
 
-        ```json
+    ```json
         {
             "id": string,
             "activated": bool,
@@ -29,7 +29,7 @@ ___
             "video_consumed": number,
             "work_region": string
         }
-        ```
+    ```
 
 * ### ***Read*** team member data
 
@@ -63,7 +63,7 @@ ___
 
     **schema**: 
     
-        ```json
+    ```json
         {
             "id": string,
             "activated": bool,
@@ -80,7 +80,7 @@ ___
             "video_consumed": number,
             "work_region": string
         }
-        ```
+    ```
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
     **schema**: 
     
-        ```json
+    ```json
         {
             "id": string,
             "country": string,
@@ -103,7 +103,7 @@ ___
             "name": string,
             "work_region": string
         }
-        ```
+    ```
 
 * ### ***Read*** manager data
 
@@ -125,7 +125,7 @@ ___
 
     **schema**: 
 
-        ```json
+    ```json
         {
             "id": string,
             "country": string,
@@ -134,7 +134,7 @@ ___
             "name": string,
             "work_region": string
         }
-        ```
+    ```
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
     **schema**:
     
-        ```json
+    ```json
         {
             "course_name": string,
             "course_description": string,
@@ -156,7 +156,7 @@ ___
             "course_source": string,
             "total_minutes": number
         }
-        ```
+    ```
         
 * ### ***Read*** course data
 
@@ -179,7 +179,7 @@ ___
 
     **schema**: 
         
-        ```json
+    ```json
         {
             "course_name": string,
             "course_description": string,
@@ -187,4 +187,4 @@ ___
             "course_source": string,
             "total_minutes": number
         }
-         ```
+     ```
